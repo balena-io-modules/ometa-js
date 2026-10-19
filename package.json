@@ -11,10 +11,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/Page-/ometa-js.git"
+    "url": "git://github.com/balena-io-modules/ometa-js.git"
   },
   "bugs": {
-    "url": "http://github.com/Page-/ometa-js/issues"
+    "url": "http://github.com/balena-io-modules/ometa-js/issues"
   },
   "main": "./lib/ometajs",
   "bin": {
