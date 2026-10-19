@@ -1,4 +1,15 @@
 - commits:
+    - subject: Fix flowzone version numbering
+      hash: b57ce88067d45c87fd63821b3bd40f5f46ddd688
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+  version: 1.5.6
+  title: ""
+  date: 2026-10-19T15:07:12.356Z
+- commits:
     - subject: "Flowzone: fix default branch name"
       hash: a6a3d6d16539535729c84a98cb102e82632ebcf6
       body: ""

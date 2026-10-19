@@ -4,6 +4,12 @@
 * Flowzone: fix default branch name [Pagan Gazzard]
 * Set up flowzone [Pagan Gazzard]
 * Fix calculation of the secondary divergence point when reusing memoizations [Pagan Gazzard]
+
+# v1.5.6
+## (2026-10-19)
+
+* Fix flowzone version numbering [Pagan Gazzard]
+
 * Lazy load uglifyjs as it's never used by compiled grammars so we can save some startup time and memory usage in those cases. [Pagan Gazzard]
 * Lazy load the cli run method as it's never used by compiled grammars so we can save some startup time and memory usage in those cases. [Pagan Gazzard]
 

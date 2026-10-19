@@ -1,7 +1,7 @@
 {
   "name": "ometa-js",
   "description": "An object-oriented language for pattern matching",
-  "version": "1.5.5",
+  "version": "1.5.6",
   "homepage": "http://tinlizzie.org/ometa-js/",
   "author": "Alessandro Warth <alexwarth@gmail.com> (http://awarth.blogspot.com/)",
   "contributors": [
@@ -53,6 +53,6 @@
     "test": "grunt nodeunit"
   },
   "versionist": {
-    "publishedAt": "2026-10-19T14:53:55.939Z"
+    "publishedAt": "2026-10-19T15:07:12.395Z"
   }
 }
