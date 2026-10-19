@@ -1,10 +1,4 @@
-v1.5.3
-
-* Fix calculation of the secondary divergence point when reusing memoizations
-
-v1.5.3
-
-# v0.0.2
+# v1.5.5
 ## (2026-10-19)
 
 * Flowzone: fix default branch name [Pagan Gazzard]
@@ -12,6 +6,12 @@ v1.5.3
 * Fix calculation of the secondary divergence point when reusing memoizations [Pagan Gazzard]
 * Lazy load uglifyjs as it's never used by compiled grammars so we can save some startup time and memory usage in those cases. [Pagan Gazzard]
 * Lazy load the cli run method as it's never used by compiled grammars so we can save some startup time and memory usage in those cases. [Pagan Gazzard]
+
+v1.5.4
+
+* Fix calculation of the secondary divergence point when reusing memoizations
+
+v1.5.3
 
 * Added a --commonjs flag for generating commonjs modules which do not include a UMD.
 
