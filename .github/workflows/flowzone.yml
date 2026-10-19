@@ -4,7 +4,8 @@ on:
   pull_request:
     types: [opened, synchronize, closed]
     branches:
-      - "highlighting"
+      - "main"
+      - "master"
 
 permissions:
   id-token: write
