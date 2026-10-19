@@ -1,0 +1,120 @@
+- commits:
+    - subject: "Flowzone: fix default branch name"
+      hash: a6a3d6d16539535729c84a98cb102e82632ebcf6
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+    - subject: Set up flowzone
+      hash: 7b27eb50a15689f2ad3cdd6a2746a7a1bb937495
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+    - subject: Fix calculation of the secondary divergence point when reusing
+        memoizations
+      hash: 433b839cd25a30c9b6f81a251c28d670bf4a6bb8
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+    - subject: Lazy load uglifyjs as it's never used by compiled grammars so we can
+        save some startup time and memory usage in those cases.
+      hash: 453082e7523163e1f2efd063e27e864cd61f31c9
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+    - subject: Lazy load the cli run method as it's never used by compiled grammars so
+        we can save some startup time and memory usage in those cases.
+      hash: aca7f2269be32224f2404c3a004ece2283e471c1
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+  version: 0.0.2
+  title: ""
+  date: 2026-10-19T14:53:55.881Z
+- version: 1.5.4
+  date: 2021-02-08T19:32:07Z
+  commits:
+    - hash: 433b839cd25a30c9b6f81a251c28d670bf4a6bb8
+      author: Pagan Gazzard
+      footers:
+        change-type: patch
+      subject: Fix calculation of the secondary divergence point when reusing
+        memoizations
+      body: ""
+- version: 1.5.3
+  date: 2018-08-16T22:36:07Z
+  commits:
+    - hash: 48631730d427ebeb1a8de995ffba081903ff2157
+      author: aneilbaboo
+      subject: Add bare module option
+      body: |-
+        `ometajs -b` strips the AMD / CommonJS wrapper from the output.
+        This wrapper interferes with webpack packaging.
+    - hash: d1c3bed7882bafe299550c3a11579f04b0fdd750
+      author: aneilbaboo
+      subject: Check whether require.extensions is available before modifying it
+      body: |-
+        The ometa output module relies transitively on api.js. In webpack
+        environments, require or require.extension may not be defined.
+        This results in failure to load api.js inside webpack.
+        This change fixes the problem.
+    - hash: 8c59b3149b1fb521feb57364f955b62755561fee
+      author: aneilbaboo
+      subject: Update docs
+      body: ""
+    - hash: a8b3122ad43f56204f571601b345dd2d78b2e0f3
+      author: aneilbaboo
+      subject: Rename command-line switch from --bareModule to --commonjs
+      body: ""
+    - hash: 0373786444c52ebc4cab387a6eff28f38ffc7640
+      author: aneilbaboo
+      subject: Remove spurious test that require is defined
+      body: ""
+- version: 1.5.2
+  date: 2018-05-17T16:57:16Z
+  commits:
+    - hash: aca7f2269be32224f2404c3a004ece2283e471c1
+      author: Pagan Gazzard
+      footers:
+        change-type: patch
+      subject: Lazy load the cli run method as it's never used by compiled grammars so
+        we can save some startup time and memory usage in those cases.
+      body: ""
+    - hash: 453082e7523163e1f2efd063e27e864cd61f31c9
+      author: Pagan Gazzard
+      footers:
+        change-type: patch
+      subject: Lazy load uglifyjs as it's never used by compiled grammars so we can
+        save some startup time and memory usage in those cases.
+      body: ""
+- version: 1.5.1
+  date: 2018-05-14T17:15:22Z
+  commits:
+    - hash: f95e59c85c3d3c99dffb1693b8ea3e7e27f12302
+      author: Pagan Gazzard
+      subject: Optimise `_many`
+      body: ""
+- version: 1.5.0
+  date: 2018-05-09T19:03:39Z
+  commits:
+    - hash: c2f2299546a40e0933d5a0ac37c948d8108539df
+      author: Pagan Gazzard
+      subject: Optimise super/`^` calls that don't pass arguments
+      body: ""
+    - hash: 1bf0fcdb3578d22b8deda0ae895a6ab38fcada6a
+      author: Pagan Gazzard
+      subject: Optimise `_not` in the case the branch tracking is disabled.
+      body: ""
+    - hash: 0c280e6ab8ec62dd328e40ad225f9ae2e1954c8d
+      author: Pagan Gazzard
+      subject: Optimise `_or`
+      body: ""
