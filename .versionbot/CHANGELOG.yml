@@ -1,4 +1,20 @@
 - commits:
+    - subject: Use try/catch directly instead of using `lookup`
+      hash: c2d10eaf95bf3b7a426202f4dffd475810e3ceae
+      body: |
+        When the `lookup` function was introduced try/catch containing
+        functions would not be optimized and so the indirection was a big win,
+        however that is no longer an issue and creating the closures becomes a
+        bigger cost, so removing those closure creations results in a
+        performance win
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+  version: 1.5.7
+  title: ""
+  date: 2026-10-22T14:24:38.517Z
+- commits:
     - subject: Fix flowzone version numbering
       hash: b57ce88067d45c87fd63821b3bd40f5f46ddd688
       body: ""

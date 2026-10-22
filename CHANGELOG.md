@@ -5,6 +5,11 @@
 * Set up flowzone [Pagan Gazzard]
 * Fix calculation of the secondary divergence point when reusing memoizations [Pagan Gazzard]
 
+# v1.5.7
+## (2026-10-22)
+
+* Use try/catch directly instead of using `lookup` [Pagan Gazzard]
+
 # v1.5.6
 ## (2026-10-19)
 
